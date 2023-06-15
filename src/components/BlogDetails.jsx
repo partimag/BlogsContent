@@ -20,7 +20,7 @@ const BlogDetails = ({post}) => {
       <div>
         {post.tags.map( (tag, index) => (
             <NavLink key={index} to={`/tags/${tag.replaceAll(" ","-")}`}>
-                <span>{`#${tag}`}</span>
+                <span className='text-blue-600 underline'>{`#${tag}`}</span>
             </NavLink>
         ) )}
       </div>

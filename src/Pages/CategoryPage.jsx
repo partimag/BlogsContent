@@ -14,13 +14,13 @@ const CategoryPage = () => {
     <div>
       <Header/>
       <div>
-        <button
+        <button  className="border-2 border-gray-300 py-1 px-4 rounded-md"
         onClick={() => navigation(-1)}
         >
             Back
         </button>
-        <h2> 
-            Blogs on <span>{category}</span>
+        <h2 className='font-bold text-3xl'> 
+            Blogs on <span className='text-blue-600 underline'>{category}</span>
         </h2>
       </div>
       <Blogs/>
