@@ -14,7 +14,7 @@ const TagPage = () => {
     <div>
         <Header/>
         <div>
-            <button  className="border-2 border-gray-300 py-1 px-4 rounded-md"
+            <button  className="border-2 border-gray-300 py-1 px-4  mt-[200px] rounded-md"
             onClick={() => navigation(-1)}
             >
                 back
